@@ -1,0 +1,42 @@
+html { font-size: 22px; }
+body { padding: 1rem; }
+form {
+    padding: 20px;
+    border: 2px solid #234e68;
+    background-color: #e5e5e5;
+    width:100%;
+    Height:50%
+  }
+  .h1{
+         padding: 10px;
+          border: 2px solid #1c87c9;
+          border-radius: 5px;
+          background-color: #e5e5e5;
+          text-align: center;
+  }
+.gallery{
+    max-width: 300px;
+    margin: 20px;
+    display: grid;
+    padding: 10px;
+    height: 40px;
+    gap: 1rem;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 50px;
+    border-style: inherit;
+    transition: transform 0.5s;
+    transform: translateY(100%);
+    grid-template-columns: repeat(2, 1fr); 
+    }
+    .img {
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color:#234e68 ;
+}
+      
+  
+  
